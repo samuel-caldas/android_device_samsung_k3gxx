@@ -226,6 +226,14 @@ PRODUCT_PACKAGES += \
     fingerprint.universal5422 \
     ValidityService
 
+# Dex2oat optimizations
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sys.fw.dex2oat_thread_count=4
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.dex2oat-filter=speed \
+    dalvik.vm.dex2oat-swap=false
+
 # Legacy stagefright media
 PRODUCT_PROPERTY_OVERRIDES += \
     media.stagefright.legacyencoder=true \
