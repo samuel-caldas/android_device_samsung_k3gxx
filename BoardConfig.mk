@@ -189,6 +189,5 @@ TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
 BOARD_HARDWARE_CLASS += hardware/samsung/cmhw
 BOARD_HARDWARE_CLASS += device/samsung/k3gxx/cmhw
 
-# SECCOMP
-# frameworks/av/services/{mediacodec,mediaextractor}/minijail
+# Seccomp
 BOARD_SECCOMP_POLICY += device/samsung/k3gxx/seccomp
