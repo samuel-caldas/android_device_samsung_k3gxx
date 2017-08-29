@@ -39,4 +39,4 @@ wlan.wfd.hdcp=disable
 audio_hal.force_voice_config=wide
 
 # Sdcardfs
-ro.sys.sdcardfs=true
+ro.sys.sdcardfs=false
