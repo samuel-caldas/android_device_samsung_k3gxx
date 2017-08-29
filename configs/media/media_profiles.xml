@@ -130,32 +130,6 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="qvga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="767000"
-             width="320"
-             height="240"
-             frameRate="30" />
-
-      <Audio codec="aac"
-             bitRate="128000"
-             sampleRate="48000"
-             channels="2" />
-    </EncoderProfile>
-
-    <EncoderProfile quality="480p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="3449000"
-             width="720"
-             height="480"
-             frameRate="30" />
-
-      <Audio codec="aac"
-             bitRate="256000"
-             sampleRate="48000"
-             channels="2" />
-    </EncoderProfile>
-
     <EncoderProfile quality="720p" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="12000000"
@@ -229,40 +203,6 @@
       -->
       <Audio codec="aac"
              bitRate="128000"
-             sampleRate="48000"
-             channels="2" />
-    </EncoderProfile>
-
-    <EncoderProfile quality="timelapseqvga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="767000"
-             width="320"
-             height="240"
-             frameRate="30" />
-
-      <!--
-            The Audio part of the profile will not be used since time lapse mode
-            does not capture audio
-      -->
-      <Audio codec="aac"
-             bitRate="128000"
-             sampleRate="48000"
-             channels="2" />
-    </EncoderProfile>
-
-    <EncoderProfile quality="timelapse480p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="3449000"
-             width="720"
-             height="480"
-             frameRate="30" />
-
-      <!--
-            The Audio part of the profile will not be used since time lapse mode
-            does not capture audio
-      -->
-      <Audio codec="aac"
-             bitRate="256000"
              sampleRate="48000"
              channels="2" />
     </EncoderProfile>
@@ -350,32 +290,6 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="qvga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="767000"
-             width="320"
-             height="240"
-             frameRate="30" />
-
-      <Audio codec="aac"
-             bitRate="128000"
-             sampleRate="48000"
-             channels="2" />
-    </EncoderProfile>
-
-    <EncoderProfile quality="480p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="3449000"
-             width="720"
-             height="480"
-             frameRate="30" />
-
-      <Audio codec="aac"
-             bitRate="256000"
-             sampleRate="48000"
-             channels="2" />
-    </EncoderProfile>
-
     <EncoderProfile quality="720p" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="12000000"
@@ -449,40 +363,6 @@
        -->
       <Audio codec="aac"
              bitRate="128000"
-             sampleRate="48000"
-             channels="2" />
-    </EncoderProfile>
-
-    <EncoderProfile quality="timelapseqvga" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="767000"
-             width="320"
-             height="240"
-             frameRate="30" />
-
-      <!--
-             The Audio part of the profile will not be used since time lapse mode
-             does not capture audio
-       -->
-      <Audio codec="aac"
-             bitRate="128000"
-             sampleRate="48000"
-             channels="2" />
-    </EncoderProfile>
-
-    <EncoderProfile quality="timelapse480p" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="3449000"
-             width="720"
-             height="480"
-             frameRate="30" />
-
-      <!--
-            The Audio part of the profile will not be used since time lapse mode
-            does not capture audio
-      -->
-      <Audio codec="aac"
-             bitRate="256000"
              sampleRate="48000"
              channels="2" />
     </EncoderProfile>
