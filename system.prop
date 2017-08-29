@@ -42,3 +42,6 @@ audio_hal.force_voice_config=wide
 
 # Sdcardfs
 ro.sys.sdcardfs=false
+
+# disable consumer ir while it's broken
+config.disable_consumerir=true
