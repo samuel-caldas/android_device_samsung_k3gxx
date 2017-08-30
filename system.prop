@@ -25,7 +25,6 @@ persist.media.treble_omx=false
 
 # Open GL
 debug.hwui.use_buffer_age=false
-debug.sf.disable_hwc=1
 ro.opengles.version=196609
 
 # Randomly from stock
