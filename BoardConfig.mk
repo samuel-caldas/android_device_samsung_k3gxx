@@ -104,8 +104,8 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_RECOVERY_FSTAB := device/samsung/k3gxx/ramdisk/fstab.universal5422
 
 # SELinux
-BOARD_SEPOLICY_DIRS += \
-    device/samsung/k3gxx/sepolicy
+#BOARD_SEPOLICY_DIRS += \
+#    device/samsung/k3gxx/sepolicy
 
 # Graphics
 USE_OPENGL_RENDERER := true
