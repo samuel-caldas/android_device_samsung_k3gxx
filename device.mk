@@ -198,6 +198,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     keystore.exynos5
 
+# Sensors
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@1.0-impl
+
+# Sensors wrapper
+PRODUCT_PACKAGES += \
+    sensors.universal5422
+
 # WIFI
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
