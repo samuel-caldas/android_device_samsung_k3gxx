@@ -97,7 +97,6 @@ IR_HAL_SUFFIX := universal5422
 # Radio
 BOARD_PROVIDES_LIBRIL := true
 BOARD_MODEM_TYPE := xmm6360
-BOARD_RIL_CLASS := ../../../device/samsung/k3gxx/ril
 
 # Recovery
 TARGET_USERIMAGES_USE_EXT4 := true
