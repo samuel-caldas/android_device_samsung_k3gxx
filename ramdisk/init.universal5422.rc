@@ -273,10 +273,6 @@ on fs
     chown system system /persdata/absolute
     chmod 0750 /persdata/absolute
 
-# Fingerprint
-    mkdir /dev/validity 0770 system system
-    mkdir /data/validity 0770 system system
-
 # SENSORS
 # Fingerprint_sensor
     chown system radio /sys/class/fingerprint/fingerprint/type_check
@@ -473,19 +469,6 @@ on property:ro.debuggable=1
     write /sys/module/kgdboc/parameters/kgdboc ttyFIQ1
     write /sys/module/fiq_debugger/parameters/kgdb_enable 1
 	
-# CS service
-service fingerprintd /system/bin/fingerprintd
-    class late_start
-    user system
-    group input
-
-# SENSOR FRAMEWORK : starts fingerprintService
-service vcsFPService /system/bin/vcsFPService
-    class late_start
-    user system
-    group system
-
-
 # GPS
 service gpsd /system/bin/gpsd -c /system/etc/gps.xml
     class main
