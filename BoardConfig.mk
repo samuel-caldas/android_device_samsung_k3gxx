@@ -72,6 +72,9 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_CUSTOM_BOOTIMG := true
 BOARD_CUSTOM_BOOTIMG_MK := hardware/samsung/mkbootimg.mk
 
+# temp hack
+BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
+
 # FIMG2D
 BOARD_USES_SKIA_FIMGAPI := true
 
@@ -104,8 +107,8 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_RECOVERY_FSTAB := device/samsung/k3gxx/ramdisk/fstab.universal5422
 
 # SELinux
-BOARD_SEPOLICY_DIRS += \
-    device/samsung/k3gxx/sepolicy
+# BOARD_SEPOLICY_DIRS += \
+#    device/samsung/k3gxx/sepolicy
 
 # Graphics
 USE_OPENGL_RENDERER := true
