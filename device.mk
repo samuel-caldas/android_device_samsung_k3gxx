@@ -172,8 +172,8 @@ PRODUCT_PACKAGES += \
     init.power.rc 
 
 # Samsung Doze
-PRODUCT_PACKAGES += \
-    SamsungDoze
+# PRODUCT_PACKAGES += \
+#    SamsungDoze
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
