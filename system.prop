@@ -38,4 +38,4 @@ audio_hal.force_voice_config=wide
 persist.bluetooth.disableabsvol=true
 
 # Sdcardfs
-ro.sys.sdcardfs=true
+ro.sys.sdcardfs=false
