@@ -66,14 +66,14 @@ on post-fs-data
 on boot
     # Permissions for bluetooth
     setprop ro.bt.bdaddr_path "/efs/bluetooth/bt_addr"
-    chown bluetooth net_bt_stack ro.bt.bdaddr_path
-    chown radio net_bt_stack /efs/bluetooth/bt_addr
+    chown bluetooth ro.bt.bdaddr_path
+    chown radio bluetooth /efs/bluetooth/bt_addr
     chmod 0640 /efs/bluetooth/bt_addr
-    chown bluetooth net_bt_stack /dev/ttySAC0
+    chown bluetooth /dev/ttySAC0
     chmod 0660 /dev/ttySAC0
     chmod 0660 /sys/class/rfkill/rfkill0/state
-    chown bluetooth net_bt_stack /sys/class/rfkill/rfkill0/state
-    chown bluetooth net_bt_stack /sys/class/rfkill/rfkill0/type
+    chown bluetooth /sys/class/rfkill/rfkill0/state
+    chown bluetooth /sys/class/rfkill/rfkill0/type
 
 # MSP FactoryApp
     mkdir /efs/FactoryApp 0775 system system
