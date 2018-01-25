@@ -57,7 +57,7 @@ PRODUCT_PACKAGES += \
 
 # SHIM LIBS
 PRODUCT_PACKAGES += \
-    libshim
+    libdmitry
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps/gps.conf:system/etc/gps.conf \
