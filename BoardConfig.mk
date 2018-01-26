@@ -191,3 +191,6 @@ BOARD_HARDWARE_CLASS += device/samsung/k3gxx/lineagehw
 # SECCOMP
 # frameworks/av/services/{mediacodec,mediaextractor}/minijail
 BOARD_SECCOMP_POLICY += device/samsung/k3gxx/seccomp
+
+# USB
+TARGET_USES_LEGACY_ADB_INTERFACE := true
