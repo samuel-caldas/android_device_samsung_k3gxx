@@ -60,6 +60,7 @@ BACKLIGHT_PATH := "/sys/devices/14400000.fimd_fb/backlight/panel/brightness"
 CHARGING_ENABLED_PATH := "/sys/class/power_supply/battery/batt_lp_charging"
 
 # Kernel
+BOARD_KERNEL_IMAGE_NAME := zImage
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 BOARD_KERNEL_SEPARATED_DT := true
 TARGET_CUSTOM_DTBTOOL := dtbhtoolExynos
