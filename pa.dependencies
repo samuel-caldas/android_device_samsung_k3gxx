@@ -1,0 +1,56 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_hardware_samsung",
+        "target_path":  "hardware/samsung",
+        "revision":     "lineage-15.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_hardware_samsung_slsi-cm_exynos",
+        "target_path":  "hardware/samsung_slsi-cm/exynos",
+        "revision":     "lineage-15.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_hardware_samsung_slsi-cm_exynos5",
+        "target_path":  "hardware/samsung_slsi-cm/exynos5",
+        "revision":     "lineage-15.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_hardware_samsung_slsi-cm_exynos5422",
+        "target_path":  "hardware/samsung_slsi-cm/exynos5422",
+        "revision":     "lineage-15.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_hardware_samsung_slsi-cm_openmax",
+        "target_path":  "hardware/samsung_slsi-cm/openmax",
+        "revision":     "lineage-15.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "s5-exynos-development/android_kernel_samsung_k3gxx",
+        "target_path":  "kernel/samsung/k3gxx",
+        "revision":     "working"
+    },
+    {
+        "remote":       "github",
+        "repository":   "TeamExyKings/proprietary_vendor_samsung_k3gxx",
+        "target_path":  "vendor/samsung",
+        "revision":     "lineage-15.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_packages_resources_devicesettings",
+        "target_path":  "packages/resources/devicesettings",
+        "revision":     "lineage-15.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_packages_apps_SamsungServiceMode",
+        "target_path":  packages/apps/SamsungServiceMode",
+        "revision":     "lineage-15.1"
+    }
+]
